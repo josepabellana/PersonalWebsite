@@ -6,8 +6,8 @@ const Social = () => {
 
     return(
         <div className="home__social">
-            <a href="https://www.instagram.com/josep_abe/" className="home__social-icon" target="_blank">
-                <i className="uil uil-instagram"></i>
+            <a href="https://twitter.com/josepabepu" className="home__social-icon" target="_blank">
+                <i className="uil uil-twitter"></i>
             </a>
             <a href="https://www.linkedin.com/in/josepabe/" className="home__social-icon" target="_blank">
                 <i className="uil uil-linkedin"></i>
