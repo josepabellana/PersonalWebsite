@@ -13,7 +13,7 @@ const Works = () => {
         if(item.name === "all"){
             setProjects(ProjectsData)
         }else{
-            const newProjects = ProjectsData.filter((project) => {return project.category.toLowerCase() === item.name});
+            const newProjects = ProjectsData.filter((project) => {return project.category.includes(item.name)});
             setProjects(newProjects);
         }
     },[item])
