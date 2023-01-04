@@ -1,5 +1,5 @@
 import Tactictoe from '../../assets/tactictoe/main.png'
-import Amazeing from '../../assets/amazeing/main.png'
+import Amazething from '../../assets/amazething/main.png'
 import Atypeical from '../../assets/atypeical/main.png'
 import Work4 from '../../assets/work4.jpg'
 import Work5 from '../../assets/work5.jpg'
@@ -14,8 +14,8 @@ export const ProjectsData = [
     },
     {
         id: 2,
-        image: Amazeing,
-        title: 'Amazeing',
+        image: Amazething,
+        title: 'Amazething',
         category: ['React','typescript','socket.io'],
         website: "https://jjamazething.netlify.app",
     },
