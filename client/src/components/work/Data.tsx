@@ -50,9 +50,6 @@ export const projectsNav = [
         name: 'socket.io',
     },
     {
-        name: 'app',
-    },
-    {
         name: 'design',
     },
     {
