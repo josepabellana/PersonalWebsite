@@ -1,4 +1,4 @@
-import Image1 from '../../assets/joan-gomez.png';
+import JoanGomez from '../../assets/joan-gomez.png';
 import Image2 from '../../assets/testimonial2.png';
 import Image3 from '../../assets/testimonial3.png';
 
@@ -6,7 +6,7 @@ import Image3 from '../../assets/testimonial3.png';
 export const Data = [
     {
         id: 1,
-        image: Image1,
+        image: JoanGomez,
         title: 'Joan Gomez',
         role: 'Data Engineer',
         company: 'Glovo',
@@ -16,15 +16,15 @@ export const Data = [
     {
         id: 2,
         image: Image2,
-        title: 'Josep Abellana',
+        title: 'Marija Vitkauskaite',
         description: 
-        'Wow is a good definition of how it feels to work with J'
+        'I highly recommend Josep as a software engineer. I had the pleasure of working with him on a project, and I was consistently impressed with his intelligence and proactive approach to problem solving. He is a hard worker and a pleasure to work with, and I think he would be an asset to any team.'
     },
-    {
-        id: 3,
-        image: Image3,
-        title: 'Josep Abellana',
-        description: 
-        'Wow is a good definition of how it feels to work with J'
-    }
+    // {
+    //     id: 3,
+    //     image: Image3,
+    //     title: 'Josep Abellana',
+    //     description: 
+    //     'Wow is a good definition of how it feels to work with J'
+    // }
 ]
