@@ -16,30 +16,16 @@ export const ProjectsData = [
         id: 2,
         image: Amazething,
         title: 'Amazething',
-        category: ['React','typescript','socket.io'],
+        category: ['react','typescript','socket.io'],
         website: "https://jjamazething.netlify.app",
     },
     {
         id: 3,
         image: Atypeical,
         title: 'Atypeical',
-        category: ['React','typescript','socket.io'],
+        category: ['react','typescript','socket.io'],
         website: "https://atypeical.netlify.app/",
     },
-    {
-        id: 4,
-        image: Work4,
-        title: 'Web design',
-        category: ['design'],
-        website: "https://www.tactictoe.net",
-    },
-    {
-        id: 5,
-        image: Work5,
-        title: 'Web design',
-        category: ['web'],
-        website: "https://www.tactictoe.net",
-    }
 ]
 
 export const projectsNav = [
@@ -47,10 +33,13 @@ export const projectsNav = [
         name: 'all',
     },
     {
-        name: 'socket.io',
+        name: 'react',
     },
     {
-        name: 'design',
+        name: 'typescript',
+    },
+    {
+        name: 'socket.io',
     },
     {
         name: 'ai',
@@ -58,11 +47,6 @@ export const projectsNav = [
     {
         name: 'angular',
     },
-    {
-        name: 'react',
-    },
-    {
-        name: 'typescript',
-    },
+    
 
 ]
