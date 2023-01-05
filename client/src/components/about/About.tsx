@@ -17,7 +17,11 @@ const About = () => {
                 <div className="about__data">
                     <Info />
                     <p className="about__description">
-                        Full Stack engineer, I create application with UI / UX user interface, I have years of experience and many clients are happy with the project I carried out.
+                    I've spent the past 4+ years working across different IT areas; front-end development, cloud consultant, data analyst, project management, to my current role as a full stack engineer.
+
+                    These days my time is spent designing, prototyping, and coding.
+
+                    Out of the office you'll find me dreaming of sports, building ships, and traveling.
                     </p>
 
                     <a download="" href={CV} className="button button__flex">Download CV
