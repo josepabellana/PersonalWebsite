@@ -16,9 +16,11 @@
 }
 
 .nav__logo,
+.nav__link,
 .nav__toggle{
     color: var(--title-color);
     font-weight: var(--font-medium);
+    font-size: var(--h3-font-size);
 }
 
 .nav__list {
@@ -29,9 +31,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: var(--h3-font-size);
-    color: var(--title-color);
-    font-weight: var(--font-medium);
     transition: .3s;
 }
 
