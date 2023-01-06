@@ -14,8 +14,6 @@ import Work from "./components/work/Work";
 
 function App() {
 
-  
-
   return (
     <>
       <Header/>

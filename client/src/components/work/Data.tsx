@@ -1,8 +1,6 @@
 import Tactictoe from '../../assets/tactictoe/main.png'
 import Amazething from '../../assets/amazething/main.png'
 import Atypeical from '../../assets/atypeical/main.png'
-import Work4 from '../../assets/work4.jpg'
-import Work5 from '../../assets/work5.jpg'
 
 export const ProjectsData = [
     {
