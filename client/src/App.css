@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap'); */
 
 /*==== Variable CSS ====*/
 :root{
@@ -14,7 +14,7 @@
   --container-color: #fff;
   
 
-  --body-font: 'Ubuntu', sans-serif;
+  --body-font: Biotif-Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
 
   /* .5rem = 8px | 1rem = 16px... */
   --big-font-size: 3.5rem;
@@ -46,6 +46,16 @@
 
 }
 
+.dark {
+  /* color mode hsl(hue,saturation,lightness)*/
+  --hue: 0;
+  --sat:0%;
+  --title-color: hsl(var(--hue),var(--sat), 98%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 70%);
+  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --body-color: hsl(var(--hue), var(--sat), 0%);
+  --container-color: #111;
+}
 
 
 /*====BASE====*/

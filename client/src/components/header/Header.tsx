@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./header.css";
 
 const Header = () => {
+
   window.addEventListener("scroll", function () {
     const header = this.document.querySelector(".header");
     if (this.scrollY >= 80) header?.classList.add("scroll-header");
@@ -11,11 +12,24 @@ const Header = () => {
   const [Toggle, showMenu] = useState(false);
   const [activeNav,setActiveNav] = useState('#home')
 
+
+  const [theme, setTheme] = useState('dark');
+
+  function toggleTheme() {
+    setTheme(theme === 'dark' ? 'light' : 'dark');
+    document.documentElement.classList.toggle('dark', theme === 'dark');
+  }
+
+
   return (
     <header className="header">
       <nav className="nav container">
         <a href="" className="nav__logo">
           Josep Abellana Puyol
+        </a>
+
+        <a  onClick={toggleTheme} className="nav__link nav__theme">
+          {theme === 'light' ? <i className="uil uil-moon"></i> : <i className="uil uil-sun"></i>}
         </a>
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
