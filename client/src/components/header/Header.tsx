@@ -29,7 +29,7 @@ const Header = () => {
         </a>
 
         <a  onClick={toggleTheme} className="nav__link nav__theme">
-          {theme === 'light' ? <i className="uil uil-moon"></i> : <i className="uil uil-sun"></i>}
+          {theme === 'light' ? <div className="flex__display"><i className="uil uil-moon"></i> dark mode </div> : <div className="flex__display"><i className="uil uil-sun"></i> light mode</div>} 
         </a>
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>

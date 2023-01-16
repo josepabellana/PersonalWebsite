@@ -62,9 +62,7 @@
         top: initial;
         bottom: 0;
     }
-    .nav {
-        height: var(--header-height)
-    }
+    
     .nav__menu{
         position: fixed;
         bottom: -100%;

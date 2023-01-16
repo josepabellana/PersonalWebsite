@@ -140,7 +140,9 @@ img{
   gap: 1.5rem;
 }
 
-
+.flex__display{
+  display: flex;
+}
 /*====BUTTONS====*/
 .button {
   display: inline-block;

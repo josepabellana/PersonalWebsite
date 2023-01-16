@@ -26,18 +26,18 @@ const Works = () => {
     return (
         <div>
             <div className="work__filters">
-            {projectsNav.map((item, index) => {
-                return (
-                    <span onClick={(e:any)=>handleClick(e,index)} className={`${active === index ? 'active-work' : ''} work__item`} key={index} >{item.name}</span>
+                {projectsNav.map((item, index) => {
+                    return (
+                        <span onClick={(e:any)=>handleClick(e,index)} className={`${active === index ? 'active-work' : ''} work__item`} key={index}>{item.name}</span>
 
-                )
-            })}
-        </div>
-        <div className="work__container container grid">
-            {projects.map((item:{id:number,image:string,title:string,category:string,website: string,}) => {
-                return(<WorksItems item={item} key={item.id} />)
-            })}
-        </div>
+                    )
+                })}
+            </div>
+            <div className="work__container container grid">
+                {projects.map((item:{id:number,image:string,title:string,category:string,website: string,}) => {
+                    return(<WorksItems item={item} key={item.id} />)
+                })}
+            </div>
         </div>
     )
 }
