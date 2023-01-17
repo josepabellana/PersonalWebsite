@@ -1,29 +1,49 @@
 .testimonial__container {
     width: 750px;
+    font-family: 'Open Sans',sans-serif;
 }
 
 .testimonial__card{
     background-color: var(--container-color);
     border: 1px solid rgba(0,0,0,0.1);
     padding: 1.5rem 2rem;
-    border-radius: 1.5rem;
+    top: 0;
+    border-radius: 15px;
     margin-bottom: var(--mb-3);
+    box-shadow: 1px 1px 10px 0 hsl(0deg 0% 49% / 25%);
+    transition: top ease 1s;
+    margin-top: 20px;
 }
 
+.testimonial__card:hover{
+    top: -10px;
+}
+
+
 .testimonial__img{
-    width: 60px;
-    border-radius: 3rem;
-    margin-bottom: var(--mb-1);
+    width: 75px;
+    border-radius: 8px;
+    margin-bottom: var(--mb-0-5);
 }
 
 .testimonial__name{
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-semi-bold);
     margin-bottom: var(--mb-0-25);
+    color: #283f7d;
+}
+
+.testimonial__profession{
+    font-size: var(--normal-font-size);
+    font-weight: 300;
+    color: #283f7d;
 }
 
 .testimonial__description {
     font-size: var(--small-font-size);
+    font-weight: 300;
+    line-height: 2;
+    color: #283f7d;
 }
 
 /* Swiper Class*/

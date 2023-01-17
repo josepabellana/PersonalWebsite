@@ -17,6 +17,7 @@ export const Data = [
         id: 2,
         image: Image2,
         title: 'Marija Vitkauskaite',
+        role: 'Full Stack Developer',
         description: 
         'I highly recommend Josep as a software engineer. I had the pleasure of working with him on a project, and I was consistently impressed with his intelligence and proactive approach to problem solving. He is a hard worker and a pleasure to work with, and I think he would be an asset to any team.'
     },
@@ -24,6 +25,7 @@ export const Data = [
         id: 3,
         image: Vadim,
         title: 'Vadim Gnezdyshkin',
+        role: 'Full Stack Developer',
         description: 
         'I had the pleasure of working with Josep as a full stack developer and was consistently impressed by his determination and ability to quickly pick up new skills. His strong work ethic and attention to detail made him a valuable asset to our team. In addition to his technical abilities, Josep also demonstrated some leadership qualities that contributed to the success of the project. I highly recommend Josep for any project and believe he would be a valuable asset to any team.'
     }
