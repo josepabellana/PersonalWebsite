@@ -11,7 +11,7 @@ export const Data = [
         role: 'Data Engineer',
         company: 'Glovo',
         description: 
-        'My year and a half working with Josep for the Swiss Business Unit was very fruitful thanks to him. His passion, dedication and motivation in every detail make his work shine, never neglecting progress. He has a great vision and ability to analyse both the present and the future, so I am sure that whatever he is involved in will be successful.'
+        '"Our work with Josep for the Swiss Business Unit was very fruitful thanks to him. His passion, dedication and motivation in every detail make his work shine, never neglecting progress. He has a great vision and ability to analyse both the present and the future."'
     },
     {
         id: 2,
@@ -19,7 +19,7 @@ export const Data = [
         title: 'Marija Vitkauskaite',
         role: 'Full Stack Developer',
         description: 
-        'I highly recommend Josep as a software engineer. I had the pleasure of working with him on a project, and I was consistently impressed with his intelligence and proactive approach to problem solving. He is a hard worker and a pleasure to work with, and I think he would be an asset to any team.'
+        '"I highly recommend Josep as a software engineer. I was consistently impressed with his intelligence and proactive approach to problem solving. He is a hard worker and a pleasure to work with, and I think he would be an asset to any team."'
     },
     {
         id: 3,
@@ -27,6 +27,6 @@ export const Data = [
         title: 'Vadim Gnezdyshkin',
         role: 'Full Stack Developer',
         description: 
-        'I had the pleasure of working with Josep as a full stack developer and was consistently impressed by his determination and ability to quickly pick up new skills. His strong work ethic and attention to detail made him a valuable asset to our team. In addition to his technical abilities, Josep also demonstrated some leadership qualities that contributed to the success of the project. I highly recommend Josep for any project and believe he would be a valuable asset to any team.'
+        '"I worked with Josep for a software project and was consistently impressed by his determination and ability to quickly pick up new skills. His strong work ethic and attention to detail made him a valuable asset to our team. In addition to his technical abilities, Josep also demonstrated some leadership qualities that contributed to the success of the project."'
     }
 ]
