@@ -18,7 +18,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="#testimonials" className="footer__link">
+            <a href="#testimonial" className="footer__link">
               Testimonials
             </a>
           </li>
