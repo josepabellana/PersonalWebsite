@@ -2,7 +2,7 @@ import "./qualification.css";
 import React, { useState } from "react";
 
 const Qualification = () => {
-  const [toggleState, setToggleState] = useState(1);
+  const [toggleState, setToggleState] = useState(2);
 
   const toggleTab = (index: number) => {
     setToggleState(index);
@@ -115,6 +115,26 @@ const Qualification = () => {
                 : "qualification__content"
             }
           >
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">
+                Software Engineer
+                </h3>
+                <span className="qualification__subtitle">Hive Streaming</span>
+
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt">2023 - current</i>
+                </div>
+              </div>
+            </div>
+
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Full Stack Engineer</h3>
