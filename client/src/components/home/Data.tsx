@@ -14,7 +14,7 @@ const Data = () => {
 
             <h3 className="home__subtitle">Software Engineer</h3>
             <p className="home__description">
-            Software engineer with a background on telecommunications and a passion for creating intuitive and dynamic web applications.
+            Software engineer with a background on telecommunications and a passion for creating digital experiences.
             </p>
 
             <a href="#contact" className="button button__flex">
