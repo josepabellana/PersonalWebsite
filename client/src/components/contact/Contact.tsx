@@ -39,7 +39,7 @@ const Contact = () => {
               </a>
             </div>
 
-            <div className="contact__card">
+            {/* <div className="contact__card">
               <i className="bx bxl-whatsapp contract__card-icon"></i>
               <h3 className="contact__card-title">Whatsapp</h3>
               <span className="contact__card-data">+34 647 625 609</span>
@@ -47,7 +47,7 @@ const Contact = () => {
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
 
