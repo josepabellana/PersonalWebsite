@@ -5,12 +5,11 @@
   /* color mode hsl(hue,saturation,lightness)*/
   --hue: 0;
   --sat:0%;
-  --title-color: hsl(var(--hue),var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --title-color: hsl(var(--hue),var(--sat), 98%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 70%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
-  
+  --body-color: hsl(var(--hue), var(--sat), 0%);
+  --container-color: #111;
 
   --body-font: 'Ubuntu', sans-serif;
 
@@ -48,11 +47,11 @@
   /* color mode hsl(hue,saturation,lightness)*/
   --hue: 0;
   --sat:0%;
-  --title-color: hsl(var(--hue),var(--sat), 98%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 70%);
+  --title-color: hsl(var(--hue),var(--sat), 20%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 0%);
-  --container-color: #111;
+  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --container-color: #fff;
 }
 
 
@@ -106,9 +105,14 @@ img{
   height: auto;
 }
 
+.main {
+  display: flex;
+  flex-direction: row;
+}
 /* Reusable css classes */
 .section{
   padding: 6rem 0 2rem;
+  min-width: 100%;
 }
 
 .section__title {

@@ -17,7 +17,7 @@ const Header = () => {
 
   function toggleTheme() {
     setTheme(theme === 'dark' ? 'light' : 'dark');
-    document.documentElement.classList.toggle('dark', theme === 'dark');
+    document.documentElement.classList.toggle('dark');
   }
 
 
@@ -29,7 +29,7 @@ const Header = () => {
         </a>
 
         <a  onClick={toggleTheme} className="nav__link nav__theme">
-          {theme === 'light' ? <div className="flex__display"><i className="uil uil-moon"></i> dark mode </div> : <div className="flex__display"><i className="uil uil-sun"></i> light mode</div>} 
+          {theme === 'light' ? <div className="flex__display"><i className="uil uil-moon"></i>  </div> : <div className="flex__display"><i className="uil uil-sun"></i> </div>} 
         </a>
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>

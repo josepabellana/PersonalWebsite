@@ -30,7 +30,7 @@ function App() {
       </main>
 
       <Footer />
-      <ScrollUp />
+      {/* <ScrollUp /> */}
     </>
   );
 }
