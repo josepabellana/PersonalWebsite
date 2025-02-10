@@ -5,6 +5,8 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
+        <h1>Welcome!</h1>
+        <h3>Site in progress...</h3>
         <Image
           className={styles.logo}
           src="/profile-BN-closer.png"
@@ -26,7 +28,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Experience
+          What I do
         </a>
         <a
           href="/blog"
