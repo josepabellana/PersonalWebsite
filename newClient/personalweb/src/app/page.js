@@ -6,8 +6,10 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <h1>Welcome!</h1>
-        <h3>Site in progress...</h3>
+          <h1 className={styles.title}>
+              <span className={styles.name}>Josep Abellana</span>
+          </h1>
+          <p className={styles.disclaimer}>Work in progress...</p>
         <Image
           className={styles.logo}
           src="/profile-BN-closer.png"
